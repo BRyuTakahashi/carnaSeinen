@@ -1,0 +1,66 @@
+@font-face {
+  font-family: beautyWind;
+  src: url(./font/Beauty\ Wind.otf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url("./assets/FUNDO.jpg");
+  /* height: 100px; */
+}
+
+.header__navbar{
+  padding: 0.2% 5%;
+}
+
+section{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text__centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  width: 100%;
+  font-family: beautyWind;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-image: url(./assets/FUNDO.jpg);
+}
+
+main{
+  padding: 160px 150px;
+  background-image: url("./assets/FUNDO.jpg");
+}
+
+.odd__container{
+  padding-left: 100px;
+}
+
+.text__container{
+  padding-right: 100px;
+}
+
+.main__header{
+  font-size: 64px;
+  color: white;
+  font-family: beautyWind;
+}
+
+.row {
+  padding-bottom: 162px;
+}
+
+.main__p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
